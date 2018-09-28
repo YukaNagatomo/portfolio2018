@@ -8,8 +8,8 @@ window.onload = function () { //全ての読み込みが完了したら実行す
     $(function () {
         $("#loading").fadeOut();
         $('#contents').css('display', 'block');
-    $('#loader-bg').delay(900).fadeOut(800);
-    $('#loader').delay(600).fadeOut(300);
+        $('#loader-bg').delay(900).fadeOut(800);
+        $('#loader').delay(600).fadeOut(300);
     });
 }
 
