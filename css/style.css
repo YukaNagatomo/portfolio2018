@@ -39,8 +39,7 @@ body {
   width: 100%;
   height: 100vh;
 /*  background-color: #CA4026;*/
-  background-color:  #fff;
-  
+  color: #fff;
 }
 
 #loading {
@@ -52,14 +51,48 @@ body {
   text-align: center;
 }
 
-#loading img {
-  width: 180px;
+.loading span {
+  display: inline-block;
+  margin: 0 -.075em;
+  animation: loading .7s infinite alternate;
+  font-size: 100px;
+  letter-spacing: 10px;
+  font-family: "Brandon_bld";
 }
-
-#loading h1 {
-  font-family: "Brandon_med";
-  font-size: 60px;
-  color: #414143;
+.loading span:nth-child(2) {
+  animation-delay: .1s;
+}
+.loading span:nth-child(3) {
+  animation-delay: .2s;
+}
+.loading span:nth-child(4) {
+  animation-delay: .3s;
+}
+.loading span:nth-child(5) {
+  animation-delay: .4s;
+}
+.loading span:nth-child(6) {
+  animation-delay: .5s;
+}
+.loading span:nth-child(7) {
+  animation-delay: .6s;
+}
+.loading span:nth-child(8) {
+  animation-delay: .7s;
+}
+.loading span:nth-child(9) {
+  animation-delay: .8s;
+}
+.loading span:nth-child(10) {
+  animation-delay: .9s;
+}
+@keyframes loading {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
 }
 
 main {
@@ -388,13 +421,14 @@ a.scroll {
 .me {
   width: 200px;
   float: left;
+  border: #7e1331 1px solid;
   box-shadow: 10px 10px #7e1331;
 }
 
 .profile-inner {
   width: 430px;
   float: left;
-  margin-left: 70px;
+  margin-left: 68px;
   font-size: 14px;
   margin-bottom: 40px;
 }
