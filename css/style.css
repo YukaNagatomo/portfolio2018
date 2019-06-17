@@ -38,7 +38,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-/*  background-color: #CA4026;*/
+  /*  background-color: #CA4026;*/
   color: #fff;
 }
 
@@ -59,37 +59,48 @@ body {
   letter-spacing: 10px;
   font-family: "Brandon_bld";
 }
+
 .loading span:nth-child(2) {
   animation-delay: .1s;
 }
+
 .loading span:nth-child(3) {
   animation-delay: .2s;
 }
+
 .loading span:nth-child(4) {
   animation-delay: .3s;
 }
+
 .loading span:nth-child(5) {
   animation-delay: .4s;
 }
+
 .loading span:nth-child(6) {
   animation-delay: .5s;
 }
+
 .loading span:nth-child(7) {
   animation-delay: .6s;
 }
+
 .loading span:nth-child(8) {
   animation-delay: .7s;
 }
+
 .loading span:nth-child(9) {
   animation-delay: .8s;
 }
+
 .loading span:nth-child(10) {
   animation-delay: .9s;
 }
+
 @keyframes loading {
   0% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(0.8);
   }
@@ -244,6 +255,7 @@ a.scroll {
   margin: 25px;
   overflow: hidden;
   position: relative;
+  opacity: 0;
 }
 
 .description {
@@ -283,35 +295,35 @@ a.scroll {
   border-radius: 10px;
 }
 
-.work10 {
+.work12 {
   animation-delay: 0;
 }
 
-.work9 {
+.work11 {
   animation-delay: 0.1s;
 }
 
-.work8 {
+.work10 {
   animation-delay: 0.2s;
 }
 
-.work7 {
+.work9 {
   animation-delay: 0.3s;
 }
 
-.work6 {
+.work8 {
   animation-delay: 0.4s;
 }
 
-.work5 {
+.work6 {
   animation-delay: 0.5s;
 }
 
-.work4 {
+.work5 {
   animation-delay: 0.6s;
 }
 
-.work3 {
+.work4 {
   animation-delay: 0.7s;
 }
 
