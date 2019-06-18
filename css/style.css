@@ -123,17 +123,19 @@ section {
   background: #fff;
   box-shadow: 0px 0px 10px #3333331f;
 }
-
+.title-wrapper{
+  text-align: center;
+}
 .title {
   font-family: "Brandon_bld";
-  text-align: center;
   font-size: 50px;
   font-weight: normal;
   margin: 70px auto;
   overflow: hidden;
   border-bottom: 4px dashed #CA4026;
-  width: 210px;
+  padding: 0 30px;
   line-height: 53px;
+  display: inline-block;
 }
 
 .inline {
@@ -290,52 +292,14 @@ a.scroll {
   opacity: 1;
 }
 
+.work:nth-child(2n) {
+  animation-delay: 0.1s;
+}
+
 .work img {
   width: 350px;
   border-radius: 10px;
 }
-
-.work12 {
-  animation-delay: 0;
-}
-
-.work11 {
-  animation-delay: 0.1s;
-}
-
-.work10 {
-  animation-delay: 0.2s;
-}
-
-.work9 {
-  animation-delay: 0.3s;
-}
-
-.work8 {
-  animation-delay: 0.4s;
-}
-
-.work6 {
-  animation-delay: 0.5s;
-}
-
-.work5 {
-  animation-delay: 0.6s;
-}
-
-.work4 {
-  animation-delay: 0.7s;
-}
-
-.work2 {
-  animation-delay: 0.8s;
-}
-
-.work1 {
-  animation-delay: 0.9s;
-}
-
-
 
 .modaal-container {
   text-align: center;
@@ -415,9 +379,6 @@ a.scroll {
   color: #fff;
 }
 
-#link-about {}
-
-
 .inner {
   width: 700px;
   margin: 0 auto;
@@ -485,6 +446,32 @@ footer {
   height: 70px;
   text-align: center;
   background-color: #CA4026;
+}
+
+.slider {
+  margin: 30px auto;
+  width: 90%;
+  opacity: 0;
+  transition: 3s;
+}
+
+.slick-initialized {
+  opacity: 1
+}
+
+.slick-slide{
+  margin: 0 10px;
+}
+
+.slider img {
+  height: auto;
+  width: 100%;
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
 }
 
 footer i {

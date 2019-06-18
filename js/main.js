@@ -2,12 +2,12 @@ $(function () {
   //    $(window).resize(function () {
   //        location.reload();
   //    })
-  //    modaal.js
+  // modaal.js
   $('.modal').modaal({
     background: '#000',
     overlay_opacity: '0.3'
   });
-  //    スムーススクロール
+  // スムーススクロール
   $('a[href^="#link-"]').click(function () {
     var speed = 500;
     var href = $(this).attr("href");
@@ -18,10 +18,21 @@ $(function () {
     }, speed, "swing");
     return false;
   });
+  // inview
   $('.work').on('inview', function (event, isInView) {
     if (isInView) {
       //表示領域に入った時
       $(this).addClass('fadeInUp');
-    } 
+    }
+  });
+  // slick
+  $('.slider').slick({
+    autoplay: true,
+    autoplaySpeed: 5000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '100px',
+    dots: true,
   });
 });
