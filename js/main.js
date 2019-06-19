@@ -34,5 +34,7 @@ $(function () {
     centerMode: true,
     centerPadding: '100px',
     dots: true,
+    prevArrow: '<img src="../images/left.png" class="slide-arrow slick-prev">',
+    nextArrow: '<img src="../images/right.png" class="slide-arrow slick-next">'
   });
 });

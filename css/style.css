@@ -455,6 +455,10 @@ footer {
   transition: 3s;
 }
 
+.slick-list{
+  border-radius: 10px;
+}
+
 .slick-initialized {
   opacity: 1
 }
@@ -466,6 +470,11 @@ footer {
 .slider img {
   height: auto;
   width: 100%;
+}
+
+img.slick-arrow{
+  width: 50px;
+  z-index: 10;
 }
 
 /*slick setting*/
